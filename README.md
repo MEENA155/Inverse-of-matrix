@@ -1,7 +1,7 @@
 # Inverse-of-matrix
 
 ## AIM:
-To write a python program to multiply two arrays using numpy.
+To write a python program to inverse of a matrix using numpy.
 ## ALGORITHM:
 ### Step 1:
 Import numpy as np
