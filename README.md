@@ -4,21 +4,23 @@
 To write a python program to inverse of a matrix using numpy.
 ## ALGORITHM:
 ### Step 1:
-Import numpy as np
+import numpy module
 ### Step 2:
-declare a variable array1 as a empty list
+Declare a variables l1 and l2 as a empty list
 ### Step 3:
-declare a variable array2 as a empty list
+Get the input of the variables n and m
 ### Step 4:
-get input value as n
+Loop a variable i in the range of n and nest loop a variable j in range m
 ### Step 5:
-iterate a variable i in range n by for loop and append the values to the list array 1 end the loop
+Get the value of nump variables
 ### Step 6:
-iterate a variable j in range n by for loop and append the values to the list array 2 end the loop
+During the loop append the nump values to l1 and l1values to list l2
 ### Step 7:
-Declare a variable product to array and compute array1*array2
+Declare a variable value 1 and l2 by converting to an array
 ### Step 8:
-Print the value of the product
+Declare a variable inverse,using numpy module's linalg and inv functions find the inverse of l2
+### Step 9:
+Print the values of inverse
 
 ## PROGRAM:
 import numpy as np
