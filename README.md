@@ -23,6 +23,9 @@ Declare a variable inverse,using numpy module's linalg and inv functions find th
 Print the values of inverse
 
 ## PROGRAM:
+'''
+Developed By Name:S.Meena.Ref No:21500895
+```
 import numpy as np
 l1,l2 = [],[]
 r,c=int(input()),int(input())
@@ -36,6 +39,7 @@ print(l2)
 value1=np.array(l2)
 inverse = np.linalg.inv(value1)
 print(inverse)
+```
 ## OUTPUT:
 ![Screenshot (111)](https://user-images.githubusercontent.com/94677128/153770781-e8396b02-4676-4bc8-a3cf-3ed3fe19d272.png)
 
